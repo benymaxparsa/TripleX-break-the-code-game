@@ -2,18 +2,25 @@
 
 int main() 
 {
+	// Print welcome messages to the console
 	std::cout << "You're a hacker trying to breaking into the BadGuys corp servers in order to access their Data Bases" << std::endl;
 	std::cout << "You need to find their passwords to continue..." << std::endl;
 
-	const int a = 4;
-	const int b = 3;
-	const int c = 2;
+	// Declare 3 number code
+	const int CodeA = 4;
+	const int CodeB = 3;
+	const int CodeC = 2;
 
-	const int sum = a + b + c;
-	const int product = a * b * c;
+	const int CodeSum = CodeA + CodeB + CodeC;
+	const int CodeProduct = CodeA * CodeB * CodeC;
 
-	std::cout << sum << std::endl;
-	std::cout << product << std::endl;
+	// Print sum and product to the console
+	std::cout << std::endl;
+	std::cout << "+ There are 3 numbers in the code" << std::endl;
+	std::cout << "+ The code add-up to: " << CodeSum << std::endl;
+	std::cout << "+ The codes multiply to give: " << CodeProduct << std::endl;
+
+	int PlayerGuess;
 
 	return 0;
 }
