@@ -26,5 +26,14 @@ int main()
 	int GuessSum = GuessA + GuessB + GuessC;
 	int GuessProduct = GuessA * GuessB * GuessC;
 
+	if (CodeSum == GuessSum && CodeProduct == GuessProduct)
+	{
+		std::cout << "Nice job! you breached into their server" << std::endl;
+	}
+	else
+	{
+		std::cout << "mission failed" << std::endl;
+	}
+
 	return 0;
 }
